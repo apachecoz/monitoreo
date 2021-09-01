@@ -1,0 +1,18 @@
+Monitor de Servicios
+
+Objetivo: Brindar una interfaz que permita visualizar el ESTADO (ACTIVO O INACTIVO) de los SERVICIOS y DETALLE DE SERVICIOS de los SERVIDORES DE APLICACIONES DE BPRO de los diferentes GRUPOS por MARCA y/o SUCURSAL, ESTADO y CIUDAD.
+
+Precondiciones: 
+1. El USUARIO debe estar autenticado/logeado/identificado en el SISTEMA
+2. El USUARIO debe tener los provilegios suficientes para acceder a los REPORTES
+
+
+Proceso: Reporte General
+El USUARIO seleciona una vista de reportes.
+El SISTEMA obtiene la información previamente almacenada y grafica los INDICADORES.
+
+GLOSARIO: 
+Vista: Es un grupo de Indicadores gráficos que muestran el estado individual de un SERVICIO, este puede ser activo o inactivo. Pueden Ser GENERAL, GRUPO, MARCA, ESTADO, SUCURSAL, CIUDAD. 
+
+
+

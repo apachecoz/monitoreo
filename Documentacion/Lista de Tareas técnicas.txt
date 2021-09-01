@@ -1,0 +1,17 @@
+Tareas técnicas
+Leer archivos applicationHost.config desde Powershell
+Leer indicadores e identificadores de Locales del Servidor
+Monitorear estado de una IP
+Monitorear estados y respuestas de puertos HTML
+Convertir y leer cadenas JSON
+Crear formulario desde Powershell
+Crear IDs con Cookies para sesiones compatibles con APIREST
+Enviar cadenas JSON desde powershell usando APIREST
+Leer desde PHP enlazando con APIREST para Leer, Guardar, Actualizar y Borrar en una Base de Datos (CRUD)
+Hacer reportes en Sitio Web utilizando PHP/APIREST/MySQL
+Módulo de Login
+Módulo APIREST
+Módulo FRONTEND con PHP y Bootstraps
+Módulo BACKEND con PHP y Bootstraps
+
+
