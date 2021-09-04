@@ -1,0 +1,80 @@
+Monitor de Servicios
+
+DESCRIBIR Y  DIVIDIR POR PUNTOS : 
+     1 )  QUIEN USA Y PORQUE,  
+	 2 )  QUÉ ES LO QUE VA A VER,   
+	 3 )  PROCESO QUE SUCEDERÁ EN SU INTERACCION
+
+
+Objetivo: Brindar una interfaz que permita visualizar el ESTADO (ACTIVO O INACTIVO) de los SERVICIOS y DETALLE DE SERVICIOS de los SERVIDORES DE APLICACIONES DE BPRO de los diferentes GRUPOS por   :
+
+VISION --> EL PUNTO DE VISTA DE ESTO ES DEL USUARIO DE BPRO QUE MANEJA A MUCHOS DISTRIBUIDORES:
+
+--------------------------------------------------------------------------------------------------------------------------------------
+1 - GRUPO ( CADA DISTRIBUIDOR, CDA, AUTOSUR, ETC. PORQUE BUSINESS PRO TRABAJA PARA DISTRIBUIDORES. RARA VEZ REPORTA DIRECTO A PLANTA, AUNQUE VER POR Marca
+SI SIRVE YA QUE ESTAS RARAS OCASIONES DE REPORTAR UN PROBLEMA DIRECTO A PLANTA, HARÍA NECESARIO VER POR MARCA LAS COSAS,
+YA QUE VERÍAN UNA MARCA A TRAVÉS DEL PAÍS Y QUÉ PROBLEMAS TIENE UNA MARCA Y DÓNDE. )
+2 - MARCA ( UNA MARCA PUEDE ESTAR PRESENTE EN MUCHOS GRUPOS  LO CUAL HACE IMPRÁCTICO POR MARCA - REFLEXIONAR ESTO )
+      
+	  CREAR UN CATALOGO DE REPRESENTANTES DE MARCA, CON NOMBRE DE LA PERSONA, ORGANIZACIÓN A LA QUE PERTENECE ( EJEMPLOS: MEGADEALER, CAPITAL NETWORKS, SICOP, ETC )
+--------------------------------------------------------------------------------------------------------------------------------------
+3 - SUCURSAL ( FOCALIZANDO LA ATENCIÓN EN UN REPORTE EN ESPECIAL, YA QUE EN REALIDAD, NO TIENE OTRO SENTIDO VER POR SUCURSAL   )
+4 - ESTADO ( TAMPOCO TIENE MUCHO SENTIDO, QUIZÁ CURIOSIDAD DE QUIEN QUIERE VER )
+5 - CIUDAD ( TAMPOCO TIENE MUCHO SENTIDO, QUIZÁ CURIOSIDAD DE QUIEN QUIERE VER )
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Proceso: Instalación del CLIENTE
+
+VISION --> EL PUNTO DE VISTA DE ESTO ES DEL USUARIO DE LA DISTRIBUIDORA AUTOMOTRIZ
+
+<# Descripción del proceso
+1. El sistema  lee /monitorea los SERVICIOS de uno o varios equipos, así como los estados de los DETALLES DE LOS SERVICIOS
+2. Se requiere que el usuario de sistemas instale un software cliente (CLIENTE / SCRIPT) que lea los datos de la computadora a monitorear.
+3. El SCRIPT debe enviar los datos a una nube.
+4. El SCRIPT debe solicitar de alguna forma al usuario su correo y algunos datos básicos
+	(Nombre, Dirección, Ciudad, Sucursal, Distribuidora, Marca, Teléfono, Correo)
+5. La nube debe recibir los datos y debe validar los datos con el usuario de sistemas. Para validar los datos debe enviar un correo de verificación al usuario de sistemas.
+6. La nube, a través de un portal debe dar acceso al usuario de sistemas previamente, verificado en el paso anterior. El usuario debera especificar los servicios a monitorear, así como (por servicio) identificarlos/validarlos dentro del sistema (Por grupo, por marca, por estado, por ciudad, por sucursal y por nombre de servicio). Ejemplo: 
+	-Grupo: CDA
+	-Marca: Ford
+	-Estado: Campeche
+	-Ciudad: Campeche
+	-Sucursal: Ford Campeche
+	-Servicio: Service Excellence
+	Usuario: apacheco2@fordpeninsula.com.mx
+	#>
+
+Glosario:
+-SCRIPT: Es el software cliente que estará monitoreando los servicios
+-SERVICIOS: Cualquier aplicación, sitio o tecnología que brinde un intercambio de información entre un cliente y un servidor. Ejemplo: Servicio Web: https://172.16.2.250:82
+-CLIENTE: Equipo o aplicación que solicita o envía información a un servidor.
+-SERVIDOR: Equipo que concentra y procesa información por y para CLIENTES y/o usuarios del sistema.
+-MARCA: Nombre que vincula a una unidad de negocios con una entidad comercial. Ejemplo: Ford, Lincoln, Mazda
+-SUCURSAL: Nombre que identifica a una unidad de negocios por su ubicación y su marca. Ejemplo: Mazda Altabrisa, Ford Montejo, Ford Campeche, Ford Ciudad del Carmen, Ford Chetumal, etc.
+-Grupo: Razón social que engloba a un grupo de unidades de negocio como entidad independiente. Ejemplos: CDA PENINSULA, CDA SURESTE, etc.
+-USUARIOS DEL SISTEMA: Personas o entidades que tienen acceso al Monitor de Servicios con el fin de agregar, eliminar, leer y/o modificar información dependiendo de sus servicios.
+-ESTADO DEL SERVICIO: Es el identificador que señala si un SERVICIO está ACTIVO o INACTIVO.
+
+
+Usuario de sistemas por marca:
+Instala el script
+Puede registrarse en la nube
+Puede identificar/validar información de servicios en la nube
+Puede agregar servicios a la nube
+Puede ver estados de los servicios vinculados a su usuario
+Puede añadir datos de sus servicios en la nube
+
+Auditor de BPRO:
+Puede ver estados de los servicios
+Puede ver informes generales de los servicios
+
+Administrador de BPRO:
+Puede dar de baja servicios en la nube
+Puede ver estados de los servicios 
+Puede ver informes generales de los servicios
+
+
+Administrador de Sistemas:
+Puede  ver estados de los servicios de sus marcas
+Puede ver informes generales de los servicios de sus marcas
+Puede solicitar bajas de servicios de sus marcas
