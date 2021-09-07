@@ -1,8 +1,0 @@
-Monitor de Servicios
-
-Objetivo: Brindar una interfaz que permita visualizar el ESTADO (ACTIVO O INACTIVO) de los SERVICIOS y DETALLE DE SERVICIOS de los SERVIDORES DE APLICACIONES DE BPRO de los diferentes GRUPOS por MARCA y/o SUCURSAL, ESTADO y CIUDAD.
-
-Proceso: Monitorear
-El programa CLIENTE de forma local obtiene el ESTADO de cada SERVICIOS cada 60 segundos
-El programa CLIENTE envía a la NUBE la información
-La NUBE lo recibe y lo almacena
