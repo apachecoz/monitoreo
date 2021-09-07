@@ -23,6 +23,10 @@ YA QUE VERÍAN UNA MARCA A TRAVÉS DEL PAÍS Y QUÉ PROBLEMAS TIENE UNA MARCA Y 
 5 - CIUDAD ( TAMPOCO TIENE MUCHO SENTIDO, QUIZÁ CURIOSIDAD DE QUIEN QUIERE VER )
 --------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+
+
 Proceso: Instalación del CLIENTE
 
 VISION --> EL PUNTO DE VISTA DE ESTO ES DEL USUARIO DE LA DISTRIBUIDORA AUTOMOTRIZ
@@ -43,6 +47,7 @@ VISION --> EL PUNTO DE VISTA DE ESTO ES DEL USUARIO DE LA DISTRIBUIDORA AUTOMOTR
 	-Servicio: Service Excellence
 	Usuario: apacheco2@fordpeninsula.com.mx
 	#>
+
 
 Glosario:
 -SCRIPT: Es el software cliente que estará monitoreando los servicios
