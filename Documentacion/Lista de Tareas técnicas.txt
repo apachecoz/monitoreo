@@ -3,6 +3,7 @@ Leer archivos applicationHost.config desde Powershell
 Leer indicadores e identificadores de Locales del Servidor
 Monitorear estado de una IP
 Monitorear estados y respuestas de puertos HTML
+Monitorear estado del disco duro desde Powershell
 Convertir y leer cadenas JSON
 Crear formulario desde Powershell
 Crear IDs con Cookies para sesiones compatibles con APIREST
